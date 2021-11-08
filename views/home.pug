@@ -1,0 +1,49 @@
+extends base.pug
+block scripts
+    script(src='../static/index.js')
+block style
+    style
+        include ../static/style.css
+block content
+    section#introsection
+      div Welcome to harsh's dance Accadmy 
+      div.small Eat Sleep Dance Repeate
+    section#missionsection
+      h2 Our Mission
+      div.t
+        div.card
+          h3 Dance Perfection
+          div.card-box
+            div.card-img
+              img(src='../static/logo0.png' alt='login' style='width:100px; height:100px;')
+            div.card-content
+              p This is the best website..  
+        div.card
+          h3 Dance Perfection
+          div.card-box
+            div.card-img
+              img(src='../static/ttr.png' alt='login' style='width:100px; height:100px;')
+            div.card-content
+              p This is the best website..  
+        div.card
+          h3 Dance Perfection
+          div.card-box
+            div.card-img
+              img(src='../static/0.png' alt='login' style='width:100px; height:100px;')
+            div.card-content
+              p This is the best website..  
+        div.card
+          h3 Dance Perfection
+          div.card-box
+            div.card-img
+              img(src='../static/01.png' alt='login' style='width:100px; height:100px;')
+            div.card-content
+              p This is the best website..  
+         
+    section#sponsoresection
+      h2 Our Sponsors
+      div#sponsors
+        img(src="/static/face.png", alt="Sponcer Images" Class="spImage")
+        img(src="/static/e.png", alt="Sponcer Images" Class="spImage")
+        img(src="/static/a.png", alt="Sponcer Images" Class="spImage")
+        img(src="/static/hp.png", alt="Sponcer Images" Class="spImage")

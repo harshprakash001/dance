@@ -1,0 +1,21 @@
+//- base.pug
+doctype html
+html
+  head
+    title  Harsh Dance Accadmy
+    block scripts
+    block style
+  body
+    nav#navbar
+      ul
+        div#logo
+          img(src='../static/uun.png' alt='login' style='width:50px; height:50px;') 
+          | HDA 
+        li #[a(href='/') Home]
+        li #[a(href='/') About]
+        li #[a(href='/') Services]
+        li #[a(href='/') Class info]
+        li #[a(href='/contact') Contact us]
+    block content
+    section#footer
+        | Copyright &#xa9 2019 HarshDanceAcademy.com.All rights reserved.    

@@ -1,0 +1,149 @@
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&display=swap'); 
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{ 
+    background-color:blue;
+    padding:12px 14px;
+    font-family: 'IBM Plex Sans', sans-serif;   
+   
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#logo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0px 34px;
+    color:red;
+}
+
+#logo img{
+    filter:invert(1);
+    
+}
+#navbar li{
+    list-style: none; 
+}
+#navbar li a{
+    padding: 14px 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+#navbar li a:hover{
+    background-color: black;
+}
+
+#introsection{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background:center/cover no-repeat url("../static/b.jpg");
+    height: 350px;
+    background-color: aqua; 
+    color:white; 
+    font-family: 'IBM Plex Sans', sans-serif; 
+}
+#introsection div{
+    font-size: 1.8rem;
+    font-weight: bold;
+} 
+#introsection div.small{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:23px
+} 
+
+#missionsection{
+    height: 300px;
+
+}
+#missionsection h2{
+    text-align: center;
+    padding-top:24px;
+}
+
+#missionsection div.t{
+    display:flex;
+}
+.card{
+   background-color: thistle;
+    border: 2px solid black;
+    width: 22%;
+    margin: 12px 17px;
+    height: 226px;
+    border-radius: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card h3{
+    text-align:center;
+    margin: 12px;
+    margin-top: 26px;
+}
+
+div.card-box{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 28px;
+    margin-left: 6px;
+}
+div.card-content{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding:12px;
+
+}
+
+
+div.card-content p{
+      
+ font-style: 22px;
+}
+
+#sponsoresection{
+    height: 250px;
+    background-color: rgb(150, 177, 182);
+}
+#sponsoresection h2{
+    text-align: center;
+    padding-top:17px;
+    margin-top: 18px;
+}
+#sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponsors img{
+    
+    height: 100px;
+    width: 100px;
+    margin:20px;
+    margin-top:24px;
+}
+
+#footer{
+    display:flex;
+    height: 40px;
+    background-color:black;  
+    color:white;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+} 
+
+
+
